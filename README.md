@@ -6,4 +6,4 @@ Using a light sensor with MicroPython to create an automatic nightlight on micro
 
 Remaining work:
 1) I Will build a paper box fitting with the nightlight for a great look. 
-2) For the whole final project, the micro:bit will be build to have two finction, an automatic nightlight and jukebox. Jukebox's functionality will be present in the next step.
+2) For the whole final project, the micro:bit will be build to have two finctions, an automatic nightlight and jukebox. Jukebox's functionality will be presented in the next step.
