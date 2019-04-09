@@ -3,9 +3,9 @@ from microbit import *
 import time
 
 while True:
-    time.sleep(0.05)
-    reading = pin2.read_analog()    # Read analog light value, attached to pin2
-    print((reading,))   # Open "Plotter" plot data while running
+    time.sleep(0.05)    # Ｔhe sensor detacts the intensity of surrounding light once in 0.05 milliseconds
+    reading = pin2.read_analog()    # Read analog light values by attacheing a cable to pin2
+    print((reading,))   # Open "Plotter" to get values from the light sensor while running
 
     if reading >= 386:  # reading higher values = environment less light
         boat = Image("99999:99999:99999:99999:99999")
